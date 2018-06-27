@@ -1,8 +1,8 @@
 class Project
-  attr_accessor :title, :goal
+  attr_accessor :title
 
-  def initialize(title, goal)
+  def initialize(title)
     @title = title
-    @goal = goal
+
   end
 end
